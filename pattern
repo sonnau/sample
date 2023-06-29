@@ -1,0 +1,7 @@
+import re
+
+# Поиск совпадений
+text = 'This is a sample text.'
+pattern = 'sample'
+matches = re.findall(pattern, text)
+print(matches)
